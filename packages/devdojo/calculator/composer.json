@@ -1,0 +1,14 @@
+{
+    "name": "devdojo/calculator",
+    "description": "This demo package will do some calculations",
+    "type": "demo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vc-vikasdiwakar",
+            "email": "vikas.diwakar@viitor.cloud"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
