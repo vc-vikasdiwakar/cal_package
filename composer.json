@@ -10,5 +10,24 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "Devdojo\\Calculator\\": "packages/devdojo/calculator/src/"
+        }
+    },
+    
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devdojo\\Calculator\\CalculatorServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "require": {
+        "laravelcollective/html": "^5.5"
+    }
 }
