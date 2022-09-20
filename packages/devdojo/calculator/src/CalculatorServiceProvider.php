@@ -16,7 +16,7 @@ class CalculatorServiceProvider extends ServiceProvider
         //
         $this->app->make('Devdojo\Calculator\CalculatorController');
         $this->loadViewsFrom(__DIR__.'/views', 'calculator');
-        include __DIR__.'/routes.php';
+        // include __DIR__.'/routes.php';
 
     }
 
@@ -28,5 +28,6 @@ class CalculatorServiceProvider extends ServiceProvider
     public function boot()
     {
         //
+        $this->loadRoutesFrom(__DIR__.'/routes.php');
     }
 }
