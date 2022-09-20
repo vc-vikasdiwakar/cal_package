@@ -10,5 +10,16 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devdojo\\Calculator"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Devdojo\\Calculator\\": "packages/devdojo/calculator/src"
+        }
+    }
 }
